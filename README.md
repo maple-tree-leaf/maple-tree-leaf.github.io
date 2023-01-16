@@ -14,6 +14,7 @@ This is our course webpage, and here are a few things that we studied, and more 
 
 **Topics to be covered**
 
+| Topic  | Schedule |
 | :------------ | -----:|
 | Nested loops     | Jan. 12 |
 | Input and Output     |   Jan. 17 |
@@ -28,7 +29,8 @@ This is our course webpage, and here are a few things that we studied, and more 
 
 **Weekly Assignments**
 
+| Assignments  | Due date |
 | :------------ | -----:|
-| Assignment I (not active yet)     | Due date: Jan. 15 |
+| Assignment I (not active yet)     | Jan. 15 |
 
 **Project**: March 9 - April 9, 2023
