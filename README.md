@@ -35,7 +35,7 @@
 **Tutorials (optional):** Every Saturday (3:00 pm - 4:00 pm)
 
 
-| Assignments  | Due date |
+| Assignment | Due date |
 | :------------ | -----:|
 | Assignment I (not active yet)     | Jan. 15 |
 
