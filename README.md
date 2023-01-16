@@ -1,7 +1,10 @@
 # Course Schedule
 
+
 *Programming with Python*
+
 *Jan - March, 2023*
+
 
 
 **Topics covered**
@@ -11,6 +14,7 @@
 - Conditionals
 - Loops
 - Algorithms and Implementation
+
 
 
 **Topics to be covered**
@@ -26,12 +30,18 @@
 | Matplotlib (Python library) |    Feb. 21, Feb. 23 |
 | Object Oriented Programming |    Feb. 28, March 2, March 7, March 9 |
 
+
+
 **Tutorials (optional):** Every Saturday (3:00 pm - 4:00 pm)
+
+
 
 **Weekly Assignments**
 
 | Assignments  | Due date |
 | :------------ | -----:|
 | Assignment I (not active yet)     | Jan. 15 |
+
+
 
 **Project**: March 9 - April 9, 2023
