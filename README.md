@@ -14,7 +14,6 @@ This is our course webpage, and here are a few things that we studied, and more 
 
 **Topics to be covered**
 
-| Left-Aligned  | Right Aligned |
 | :------------ | -----:|
 | Nested loops     | Jan. 12 |
 | Input and Output     |   Jan. 17 |
@@ -28,7 +27,7 @@ This is our course webpage, and here are a few things that we studied, and more 
 **Tutorials (optional):** Every Saturday (3:00 pm - 4:00 pm)
 
 **Weekly Assignments**
-| Left-Aligned  | Right Aligned |
+
 | :------------ | -----:|
 | Assignment I (not active yet)     | Due date: Jan. 15 |
 
