@@ -1,6 +1,7 @@
-# Hello guys!
+# Course Schedule
 
-This is our course webpage, and here are a few things that we studied, and more things that we will be studying!
+*Programming with Python*
+*Jan - March, 2023*
 
 
 **Topics covered**
