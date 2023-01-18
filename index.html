@@ -1,10 +1,915 @@
-<!DOCTYPE html>
+
 <html>
-  <head>
-    <title>My GitHub Pages Site</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
-  </body>
-</html>
+<body background="./pattern1.gif">
+<head>
+
+<title>Algorithms for Big Data </title>
+
+</head>
+<center>
+<h2> 
+Algorithms for Big Data, <br> M. Tech. (CS), 2022
+</h2>
+</center>
+
+<hr>
+<center>
+<table  cellpadding="2" cellspacing="2" border="0"
+ style="text-align: left; width: 100%;">
+     <tr>
+          <td> 
+	    <a href="#out"> Course Outline  </a>
+
+	  </td>
+         
+	  <td>
+	   <a href="#info"> General Information </a>
+	  </td>
+
+	   <td>
+	   <a href="#study"> Study Material </a>
+
+	   </td>
+
+	   <td>
+	   <a href="#lecture"> Lectures (classwise) </a>
+	  </td>
+<!--
+	  <td>
+	   <a href="#link"> Useful Links </a>
+
+	  </td>
+-->
+
+     </tr>
+
+    
+     
+</table>
+
+</center>
+
+<hr>
+
+<ul>
+<p>
+<li> <font size=4> <a name="out"> Course Outline </a> </font>
+
+<p> 
+The course consists of 4 lecture hours per week. 
+</p>
+
+<p align="justify">
+The basic thrust of the course would be to study sublinear algorithms, specifically streaming, and property testing.
+</p>
+
+<p>
+We will try to stick to the basic course outline as given 
+<i> <a href="https://www.isical.ac.in/~deanweb/MTECHCSNEWSYLL2020.pdf">here</a></i>.
+</p>
+
+<p>
+We would assume in this course that you have undergone the Data and File Structures, Design and 
+Analysis of Algorithms and Discrete Mathematics courses and have some knowledge of elementary 
+discrete probability. The course "Randomized and Approximation Algorithms" is desirable. 
+</p>
+
+<p>
+
+<li> <font size=4> <a name="info"> General Information: </a> </font>
+
+<center>
+<table  cellpadding="2" cellspacing="2" border="0"
+ style="text-align: left; width: 70%;">
+     <tr>
+          <td> Taught by: Arjit Bishnu (ArB) <br>  </td>
+          <td> Class Timings: </td>          
+	  <td> Tuesday 14:15-16:00, Thursday 14:15-16:00 <br>
+	      <!-- ACMU seminar room (6th floor, Platinum Jubilee Building) -->	      
+	  </td>
+
+     </tr>
+
+     <tr>
+         <td valign=middle>  The necessary evil - marks, exam, etc.: </td>
+         
+	  <td valign=middle> Mid-sem: 10, End-sem: 50, Internal evaluation: 40 <br>
+          
+	  </td>
+
+     </tr>
+     
+</table>
+
+</center>
+</p>
+
+<p>
+
+<li> <font size=4> <a name="study"> Study material: </a> </font> 
+<font size=2> Keep looking regularly for any updates </font>
+
+<center>
+<table  cellpadding="2" cellspacing="2" border="1"
+ style="text-align: left; width: 80%;">
+     
+     <tr>
+          <td align=middle> Books </td>
+
+     
+	  <td align=middle> 
+       <!--
+	   (B1) Algorithm Design <br>
+           J. Kleinberg and Eva Tardos <br>
+           Pearson Education
+           <hr>
+               (B2) Probability and Computing: Randomized Algorithms and Probabilistic Analysis <br>
+	       Michael Mitzenmacher and Eli Upfal<br>
+	       Cambridge
+	      <hr>
+	      (B3) Randomized Algorithms<br>
+	       Rajeev Motwani and Prabhakar Raghavan<br>
+	       Cambridge
+	      <hr> --> 
+              (B1) Foundations of Data Science <br> 
+                   A. Blum, J. Hopcroft and R. Kannan <br>
+                   Cambridge University Press
+              <hr>
+              (B2) Design and Analysis of Algorithms: A Contemporary Perspective <br> 
+                   S. Sen and A. Kumar <br> 
+                   Cambridge University Press <br> 
+              <hr>
+              (B3) Introduction to Property Testing <br> 
+                   Oded Goldreich <br> 
+                   Cambridge University Press 
+              <hr>               
+	      (B4) The Probabilistic Method <br> 
+                   Noga Alon, Joel H. Spencer <br> 
+                   4th edition, Wiley <br>
+              <hr> 
+               (B5) Algorithm Design <br> 
+                    J. Kleinberg and Eva Tardos <br> 
+                    Pearson Education (Indian edition) <br>
+              <hr> 
+               (B6) Algorithms <br> 
+                    S. Dasgupta, C. Papadimitriou and U. Vazirani <br> 
+                    Tata McGraw-Hill <br>
+              <hr> 
+               (B7) Probability and Computing: Randomized Algorithms and Probabilistic Analysis <br> 
+                    M. Mitzenmacher and E. Upfal <br> 
+                    Cambridge University Press <br>  
+    </tr>
+   <tr> 
+         <td align=middle> Web Resources </td>
+         <td align=middle> 
+        (W1) <a href="https://www.sketchingbigdata.org/fall17/lec/">Lecture Notes by Jelani Nelson</a> 
+         <hr> 
+        (W2) <a href="https://www.cs.dartmouth.edu/~ac/Teach/data-streams-lecnotes.pdf">Lecture Notes by Amit Chakrabarti</a> 
+        <hr>
+        (W3) <a href="https://courses.cs.washington.edu/courses/cse522/14sp/lectures/index.html">Lecture Notes by Paul Beame</a>
+        <hr> 
+        (W4) <a href="http://timroughgarden.org/notes.html">Lecture Notes by Tim Roughgarden on "Modern Algorithmic Toolbox" (with Greg Valiant)</a>
+        <hr> 
+         (W5) <a href="http://timroughgarden.org/notes.html">Lecture Notes by Tim Roughgarden on Communication Complexity (for Algorithm Designers)</a>           
+	  </td> 
+        </td>
+
+   </tr>
+</table>
+</center>
+
+
+	  </td>
+
+<p>
+
+<li> <font size=4> <a name="lecture"> Lectures (classwise): </a> </font> 
+
+
+<center>
+<table  cellpadding="2" cellspacing="2" border="1"
+ style="text-align: left; width: 80%;">
+     
+ 	<tr>
+          <td align=middle> LECTURE DATES (Taught by) </td>        
+	  <td align=middle> TOPICS </td>
+          <td align=middle> SCRIBE </td>
+     	</tr>
+
+ <tr>
+          <td align=middle> Lecture 1 <br> (02-08-22) </td>
+          <td align=middle> <p> 
+                            Introduction to model centric algorithms, reduction -- 
+                            <font color="#1c87c9">Read from (B5) and (B6) </font> <br>
+                            </p>
+                            <p>
+                            Folklore majority finding algorithm 
+                            <font color="#1c87c9">Read from (W2)</font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                          --
+          </td>
+       </tr>
+
+  <tr>
+          <td align=middle> Lecture 2 <br> (04-08-22) </td>
+          <td align=middle>
+                            <p>
+                            Introduction to randomized algorithms -- quicksort, median finding, minimum cut;
+                            <font color="#1c87c9"> Read from (B5), (B6) and (B7) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 3 <br> (16-08-22) </td>
+          <td align=middle>                        
+                            <p>
+                             Introduction to Universal Hashing;
+                            <font color="#1c87c9"> Read from (B5), (B6) and (W4) </font> <br>
+                            </p>
+                            
+                           <p>
+                            Introduction to Markov and Chebyshev's inequality --
+                            <font color="#1c87c9">Read from (B5) and (B6)</font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+         <tr>
+          <td align=middle> Lecture 4 <br> (17-08-22) </td>
+          <td align=middle>
+                            <p>
+                            Introduction to Chernoff bounds;
+                            <font color="#1c87c9"> Read from (B7) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 5 <br> (22-08-22) </td>
+          <td align=middle>
+                            <p>
+                            Applications of Chernoff bounds: load balancing and packet routing;
+                            <font color="#1c87c9"> Read from (B7) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+
+         <tr>
+          <td align=middle> Lecture 6 <br> (23-08-22) </td>
+          <td align=middle>
+                            <p>
+                            Streaming models; Misra Gries
+                            <font color="#1c87c9"> Read from (W1) and (W2)</font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+         <tr>
+          <td align=middle> Lecture 7 <br> (25-08-22) </td>
+          <td align=middle>
+                            <p>
+                            Approximate counting: Morris and its variants; Using the median of means trick; 
+                            <font color="#1c87c9"> Read from (W1) and (W2)</font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+ 
+
+       <tr>
+          <td align=middle> Lecture 8 <br> (29-08-22) </td>
+          <td align=middle>
+                            <p>
+                               Hashing (revision). Number of distinct elements;
+                            <font color="#1c87c9"> Read from (B1) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+       <tr>
+          <td align=middle> Lecture 9 <br> (30-08-22) </td>
+          <td align=middle>
+                            <p>
+                               Number of distinct elements;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+      <tr>
+          <td align=middle> Lecture 10 <br> (06-09-22) </td>
+          <td align=middle>
+                            <p>
+                               Reservoir sampling;
+                            <font color="#1c87c9"> Read from (W4) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+       
+       <tr>
+          <td align=middle> Lecture 11 <br> (08-09-22) </td>
+          <td align=middle>
+                            <p>
+                               Approximate heavy hitters: Count Min Sketch;
+                            <font color="#1c87c9"> Read from (W4) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+       <tr>
+          <td align=middle> Lecture 12 <br> (12-09-22) </td>
+          <td align=middle>
+                            <p>
+                               Approximate Heavy Hitters: Count Sketch;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+       <tr>
+          <td align=middle> Lecture 13 <br> (13-09-22) </td>
+          <td align=middle>
+                            <p>
+                               Frequency moments: AMS sketch for F_2;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+
+         <tr>
+          <td align=middle> Lecture 14 <br> (27-09-22) </td>
+          <td align=middle>
+                            <p>
+                               Geometric interpretation of AMS Tug-of-War Sketch; The AMS estimator of F_k;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+         <tr>
+          <td align=middle> Lecture 15 <br> (29-09-22) </td>
+          <td align=middle>
+                            <p>
+                               Communication complexity, Results on EQ, INDEX and DISJ, Connection to streaming lower bounds; 
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+  
+         <tr>
+          <td align=middle> Lecture 16 <br> (10-10-22) </td>
+          <td align=middle>
+                            <p>
+                               Graph Streaming Algorithms: Connectedness, Bipartiteness, Shortest path; Distance estimation via spanners; 
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+         <tr>
+          <td align=middle> Lecture 17 <br> (11-10-22) </td>
+          <td align=middle>
+                            <p>
+                               Graph Streaming Algorithms: Proof of the algorithms for spanners, maximum cardinality matching;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 18 <br> (13-10-22) </td>
+          <td align=middle>
+                            <p>
+                               Maximum Weight Matching;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 18 <br> (13-10-22) </td>
+          <td align=middle>
+                            <p>
+                               Maximum Weight Matching;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 19 <br> (17-10-22) </td>
+          <td align=middle>
+                            <p>
+                              Rectangle property of deterministic communication protocols, Transcript, Lower bound for EQ, Randomized lower bounds: F_infty;
+                            <font color="#1c87c9"> Read from (W5) and (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+
+        <tr>
+          <td align=middle> Lecture 20 <br> (18-10-22) </td>
+          <td align=middle>
+                            <p>
+                              Distinct elements lower bound, Graph connectedness lower bound, Multipass streaming lower bound;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+ 
+           <tr>
+          <td align=middle> Lecture 21 <br> (20-10-22) </td>
+          <td align=middle>
+                            <p>
+                             Randomized lower bounds: Yao's minimax method;
+                            <font color="#1c87c9"> Read from (xx) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+           <tr>
+          <td align=middle> Lecture 22 <br> (31-10-22) </td>
+          <td align=middle>
+                            <p>
+                              Computing F_k for any k between 0 and 2;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 23 <br> (01-11-22) </td>
+          <td align=middle>
+                            <p>
+                              Analysis of computing F_k for any k between 0 and 2 -- Continued;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 24 <br> (03-11-22) </td>
+          <td align=middle>
+                            <p>
+                              Compressed sensing: Sparse recovery from 1-sparse vector;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+
+        <tr>
+          <td align=middle> Lecture 25 <br> (07-11-22) </td>
+          <td align=middle>
+                            <p>
+                              Map Reduce (lecture by Debapriyo Majumdar);
+                            <font color="#1c87c9"> Read from slides to be supplied </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+       <tr>
+          <td align=middle> Lecture 26 <br> (08-11-22) </td>
+          <td align=middle>
+                            <p>
+                              Clustering over metric space: 8-factor approximation of metric k-center problem ;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+       <tr>
+          <td align=middle> Lecture 27 <br> (10-11-22) </td>
+          <td align=middle>
+                            <p>
+                             Map Reduce, Hadoop (lecture by Debapriyo Majumdar);
+                            <font color="#1c87c9"> Read from slides </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+       <tr>
+          <td align=middle> Lecture 28 <br> (11-11-22) </td>
+          <td align=middle>
+                            <p>
+                              (1+\epsilon) estimator of minimum enclosing ball using coresets and theta-grid;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+
+        <tr>
+          <td align=middle> Lecture 29 <br> (14-11-22) </td>
+          <td align=middle>
+                            <p>
+                              Weight based sampling: l_0 sampling;
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 30 <br> (15-11-22 and 22-11-22) </td>
+          <td align=middle>
+                            <p>
+                              Query complexity: estimating the average degree of a graph whose vertex set is only known;
+                            <font color="#1c87c9"> Read from the original paper by Goldreich and Ron </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+
+
+
+   <!--
+        <tr>
+          <td align=middle> Lecture 5 <br> (28-10-21) </td>
+          <td align=middle>
+                            <p>
+                            Finding distinct elements and initial ideas of use of hashing --
+                            <font color="#1c87c9"> Read from (B1)  </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+         <tr>
+          <td align=middle> Lecture 6 <br> (02-11-21) </td>
+          <td align=middle>
+                           <p>
+                            Some ideas on hashing --
+                            <font color="#1c87c9"> Read from (B1) and (W3) </font> <br>
+                           </p>
+
+                             <p>
+                            Using the median trick on Morris to boost up success probability --
+                            <font color="#1c87c9"> Read from (W1) and (W2) </font> <br>
+                            </p>
+
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 7 <br> (09-11-21) </td>
+          <td align=middle>
+                         
+                          <p>
+                            Vitter's reservoir sampling --
+                            <font color="#1c87c9"> Read from <a href="http://timroughgarden.org/s17/l/l13.pdf">(W4)</a> </font> <br>
+                          </p>
+
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+       
+       <tr>
+          <td align=middle> Lecture 8 <br> (11-11-21) </td>
+          <td align=middle>
+                           <p>
+                            Approximate Heavy hitters and count min sketch --
+                            <font color="#1c87c9"> Read from <a href="http://timroughgarden.org/s17/l/l2.pdf">(W4)</a> and (W2)</font> <br>
+                           </p>
+
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+
+          <tr>
+          <td align=middle> Lecture 9 <br> (16-11-21) </td>
+          <td align=middle>
+                           <p>
+                            Approximate Heavy hitters and count min sketch --
+                            <font color="#1c87c9"> Read from <a href="http://timroughgarden.org/s17/l/l2.pdf">(W4)</a> and (W2)</font> <br>
+                           </p>
+
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+         <tr>
+          <td align=middle> Lecture 10 <br> (23-11-21) </td>
+          <td align=middle>
+                           <p>
+                            Approximate heavy hitters and Count sketch --
+                            <font color="#1c87c9"> Read from <a href="http://timroughgarden.org/s17/l/l2.pdf">(W2)</a></font> <br>
+                           </p>
+
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+       
+          <tr>
+          <td align=middle> Lecture 11 <br> (25-11-21) </td>
+          <td align=middle>
+                           <p>
+                            Count  sketch (contd.)--
+                            <font color="#1c87c9"> Read from <a href="http://timroughgarden.org/s17/l/l2.pdf">(W2)</a> </font> <br>
+                           </p>
+
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+
+	<!--
+	      <lign=middle> Lecture 7 <br> (09-11-21) </td>
+          <td align=middle>
+
+                          <p>
+                            Vitter's reservoir sampling --
+                            <font color="#1c87c9"> Read from <a href="http://timroughgarden.org/s17/l/l13.pdf">(W4)</a> </font> <br>
+                          </p>
+
+     
+          <td align=middle> Lecture 1 <br> (05-10-21) </td>
+          <td align=middle> <p> 
+                            Introduction to Sub-linear algorithms -- 
+                            <font color="#1c87c9">Read from (W1)-(W3) and (B2) </font> <br>   
+                            </p> 
+                            <p> 
+                            Folklore majority finding algorithm, Frequency estimation (Misra-Gries algorithm) --  
+                            <font color="#1c87c9">Read from (W2)</font> <br>
+                            </p> 
+          </td>
+          <td align=middle> 
+                          --
+          </td>  
+       </tr>
+     
+        <tr>
+          <td align=middle> Lecture 2 <br> (07-10-21) </td>
+          <td align=middle> 
+                            <p>
+                            Approximate counting: Morris's algorithm; initial technique of Variance minimization by taking the average of multiple instances; 
+                            <font color="#1c87c9"> Read from (W1) </font> <br>
+                            </p>
+                            <p>
+                            Initial ideas of distinct elements --
+                            <font color="#1c87c9"> Read from (B1)  </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 3 <br> (21-10-21) </td>
+          <td align=middle>
+                            <p>
+                            Vitter's reservoir sampling -- 
+                            <font color="#1c87c9"> Read from <a href="http://timroughgarden.org/s17/l/l13.pdf">(W4)</a> </font> <br>
+                            </p>
+                            <p>
+                            Finding distinct elements and initial ideas of use of hashing --
+                            <font color="#1c87c9"> Read from (B1)  </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+ 
+
+        <tr>
+          <td align=middle> Lecture 4 <br> (04-02-20) </td>
+          <td align=middle>
+                            <p>
+                            Some ideas on hashing --
+                            <font color="#1c87c9"> Read from (B1) and (W3) </font> <br>
+                            </p>
+                            <p>
+                            Using the median trick on Morris to boost up success probability --
+                            <font color="#1c87c9"> Read from (W1) and (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+       
+       <tr>
+          <td align=middle> Lecture 5 <br> (06-02-20) </td>
+          <td align=middle>
+                            <p>
+                            Idea on streaming models like vanilla, cash register, turnstile, etc. and sketching --
+                            <font color="#1c87c9"> Read from (W2)  </font> <br>
+                            </p>
+
+                            <p>
+                            Heavy hitters and count min sketch --
+                            <font color="#1c87c9"> Read from <a href="http://timroughgarden.org/s17/l/l2.pdf">(W4)</a> and (W2)</font> <br>
+                            </p>
+ 
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 6 <br> (07-02-20) </td>
+          <td align=middle>
+                            <p>
+                            Count sketch -- 
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+ 
+        <tr>
+          <td align=middle> Lecture 7 <br> (11-02-20) </td>
+          <td align=middle>
+                            <p>
+                            Estimating the number of distinct elements: a constant multiplicative error algorithm <br> 
+                            <font color="#1c87c9"> Read from (W2) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 8 <br> (14-02-20) </td>
+          <td align=middle>
+                            <p>
+                            Estimating the number of distinct elements: an (epsilon, delta) algorithm <br>
+                            <font color="#1c87c9"> Read from (W2) and the <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.12.6276">paper by Bar-yossef et al.</a></font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 9 <br> (18-02-20) </td>
+          <td align=middle>
+                            <p>
+                            AMS tug-of-war sketch for F_2; <br>
+                            <font color="#1c87c9"> Read from (W2); the original paper is <a href="https://www.sciencedirect.com/science/article/pii/S0022000097915452">here</a>.</font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+       <tr>
+          <td align=middle> Lecture 10 <br> (25-02-20) </td>
+          <td align=middle>
+                            <p>
+                            A geometric interpretation (on dimensionality reduction) of AMS Tug-of-war sketch:  <br>
+                            AMS algorithm for estimating F_k;<br>  
+                            <font color="#1c87c9"> Read from (W2); the original paper is <a href="https://www.sciencedirect.com/science/article/pii/S0022000097915452">here</a>.</font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+
+        <tr>
+          <td align=middle> Lecture 11 <br> (28-02-20) </td>
+          <td align=middle>
+                            <p>
+                            Introduction to (one-way) communication complexity: EQUALITY (EQ), INDEX, DISJOINTNESS (DISJ) <br>
+                            Linear lower bounds for deterministic protocols for EQ, INDEX, DISJ; <br> 
+                            Connections to space lower bounds for streaming algorithms; <br> 
+                            Linear lower bound on 1-pass MAJORITY streaming problem. <br> 
+                            <font color="#1c87c9"> Read from (W2) and (W5) </font> <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
+       </tr>
+      
+        <tr>
+          <td align=middle> Lecture 12 <br> (13-02-20) </td>
+          <td align=middle>
+                            <p>
+                            A brief discussion on reductions; <br>
+		            A randomized protocol for EQ -- <font color="#1c87c9"> Read from (W2) </font>; <br>
+		            A lower bound for a randomized streaming algorithm for F<sub>&#8734</sub> -- <font color="#1c87c9"> Read from (W5) </font>; <br>
+                            </p>
+          </td>
+          <td align=middle>
+                           --
+          </td>
