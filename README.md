@@ -1,12 +1,12 @@
 
 <h1 align="center">Hello World!</h1>
 
-<p>My name is Kevin, and here are a few things I'm working on:</p>
+<p>My name is Manideep, and here are a few things I do:</p>
 
 <ul>
-  <li>Happy Coding</li>
-  <li>Software Product Sprint</li>
-  <li>Google Maps</li>
+  <li>Work</li>
+  <li>Dance</li>
+  <li>Music</li>
 </ul>
 
 <hr>
